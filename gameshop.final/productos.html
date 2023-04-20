@@ -59,8 +59,8 @@
     <main> 
       <form>
         <fieldset >
-          <legend>Mantenedor de productos</legend>
-          <div class="col-sm-12 col-md-6 ">
+          <h1>Mantenedor de Productos</h1>
+          <div class="col-sm-12 col-md-6 col-">
             <label for="ID" class="form-label">ID</label>
             <input type="text" id="ID" class="form-control" placeholder="Ingrese ID">
           </div>
@@ -72,12 +72,113 @@
               <option>Nintendo</option>
             </select>
           </div>
-         
-          <button type="submit" class="btn btn-primary">Submit</button>
-          <button type="submit" class="btn btn-primary">Submit</button>
-          <button type="submit" class="btn btn-primary">Submit</button>
+          <div class="col-sm-12 col-md-6 ">
+            <label for="Nombre" class="form-label">Nombre</label>
+            <input type="text" id="nombre" class="form-control" placeholder="Ingrese nombre del producto">
+          </div>
+          <div class="col-sm-12 col-md-6 ">
+            <label for="descripcion" class="form-label">Descripcion</label>
+            <textarea class="form-control" id="descripcion" rows="3" placeholder="Ingrese una descripcion" required></textarea>
+          </div>
+          <div class="col-sm-12 col-md-6 ">
+            <label for="precio" class="form-label">Precio</label>
+            <input type="text" id="Precio" class="form-control" placeholder="8000">
+          </div>
+          <fieldset disabled>
+          <div class="col-sm-12 col-md-6 ">
+            <label for="descSubs" class="form-label">Descuento subscriptor</label>
+            <input type="text" id="nombre" class="form-control" placeholder="5%">
+          </div>
+          </fieldset>
+          <fieldset disabled>
+            <div class="col-sm-12 col-md-6 ">
+              <label for="descOf" class="form-label">Descuento por oferta</label>
+              <input type="text" id="descOf" class="form-control" placeholder="2%">
+            </div>
+            </fieldset>
+          <button type="submit" class="btn btn-primary">Guardar</button>
+          <button type="submit" class="btn btn-primary">Nuevo</button>
+          <button type="submit" class="btn btn-primary">Eliminar</button>
         </fieldset>
       </form>
+
+      <table class="table table-striped-columns">
+          
+        
+          <thead>
+            <tr>
+              <th scope="col">ID</th>
+              <th scope="col">Categoria</th>
+              <th scope="col">Nombre</th>
+              <th scope="col">Descripcion</th>
+              <th scope="col">Precio</th>
+              <th scope ="col">% Desc Subscriptor</th>
+              <th scope="col">% Desc Oferta</th>
+              
+              
+             <br>
+             <br>
+             <br>
+  
+             
+            </tr>
+  
+          </thead>
+  
+  
+          <tbody>
+            <tr>
+              <th scope="row">111</th>
+             
+              <td>PlayStation </td> 
+              <td>GTA V</td>
+              <td>Videojuego PS5</td>
+              <td>20.900</td>
+              <td>5%</td>
+              <td>2%</td>
+              
+              
+              
+              
+             
+            </tr>
+            <tr>
+              <tr>
+                  <th scope="row">222</th>
+                 
+                  <td>Xbox</td> 
+                  <td>Mario Kart</td>
+                  <td>Videojuego XBOX</td>
+                  <td>$31.178</td>
+                  <td>5%</td>
+                  <td>2%</td>
+                 
+                  
+                  
+                 
+                </tr>
+              
+            </tr>
+            <tr>
+              <tr>
+                  <th scope="row">333</th>
+                 
+                  <td>Nintendo </td> 
+                  <td>Pokemon Esmeralda</td>
+                  <td>Videojuego NINTENDO</td>
+                  <td>20.900</td>
+                  <td>5%</td>
+                  <td>2%</td>
+              
+                  
+                  
+                 
+                </tr>
+             
+  
+               </tr>
+             </tbody>
+          </table>
         
     </main>
 

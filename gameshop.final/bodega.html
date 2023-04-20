@@ -56,22 +56,20 @@
 </header>
 
     <!-- contenido principal de la pagina  -->
-    <main> <h1>Bodega </h1>
+    <main>
         <div class="row"> 
             <div class="col">
              
               
               <div class="container-fluid">
                 <div class="">
-                  <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
-                    <div class=" card mb-4  rounded-5 text-secondary  shadow">
-                      <div class="card-body text-center">
+                  <div class="col-sm-12 col-md-6">
                         <h1> Mantenedor de Bodegas</h1>
             <form>
     
             <select class="form-select form-select-sm mb-2" aria-label=".form-select-sm example">
                 
-                <option selected>categoria</option>
+                <option selected>Categoria</option>
                 <option value="1">PLAYSTATION</option>
                 <option value="2">XBOX</option>
                 <option value="3">NINTENDO</option>
@@ -79,35 +77,31 @@
               </select>
               <select class="form-select form-select-sm mb-2" aria-label=".form-select-sm example">
                 
-                <option selected>nombres</option>
-                <option value="1">Champion Dog</option>
-                <option value="2">Master Dog Carne</option>
-                <option value="3">master cat</option>
-                <option value="4">WHISCAS-POLLO</option>
-                <option value="5">Pedrigree</option>
-                <option value="6">Purina Proplan</option>
-                <option value="7">Royal cannin</option>
-                <option value="8"> Master Dog Carne</option>
+                <option selected>Nombre</option>
+                <option value="1">GTA V</option>
+                <option value="2">MARIO KART</option>
+                <option value="3">POKEMON ESMERALDA</option>
+                
                 
                 
               </select>
               <div class="mb-4">
-                <label for="nombres" class="form-label"></label>
-                <input placeholder="CANTIDAD" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                <div id="emailHelp" class="form-text"></div>
+                <label for="cantidad" class="form-label"></label>
+                <input placeholder="cantidad" type="text" class="form-control" id="cantidad">
+                <div id="cantidad" class="form-text"></div>
               </div>
               
     
-              <button type="button" class="btn btn-success">nuevo</button>
-              <button type="button" class="btn btn-warning">agregar</button>
+              <button type="button" class="btn btn-primary">Nuevo</button>
+              <button type="button" class="btn btn-primary">Agregar</button>
     
     
             
              </form> 
                         
                  
-                      </div>
-                      </div>
+                      
+                      
                     </div>
                     
                 
@@ -118,10 +112,10 @@
                         <thead>
                           <tr>
                             <th scope="col">ID</th>
-                            <th scope="col">categoria</th>
-                            <th scope="col">nombre</th>
-                            <th scope="col">estado</th>
-                            <th scope="col">opciones</th>
+                            <th scope="col">Categoria</th>
+                            <th scope="col">Nombre</th>
+                            <th scope="col">Estado</th>
+                            <th scope="col">Opciones</th>
                 
                            
                           </tr>
@@ -131,30 +125,30 @@
                 
                         <tbody>
                           <tr>
-                            <th scope="row">20</th>
+                            <th scope="row">111</th>
                            
-                            <td> PLAYSTATION</td> 
-                            <td></td>
-                            <td>vendido</td>
-                            <td>eliminar</td>
-                           
-                          </tr>
-                          <tr>
-                            <th scope="row">34</th>
-                            
-                            <td>gato</td>
-                            <td>royal Canin</td>
-                            <td>bodega</td>
-                            <td>eliminar</td>
+                            <td>PLAYSTATION</td> 
+                            <td>GTA V</td>
+                            <td>Vendido</td>
+                            <td><button>Eliminar</button></td>
                            
                           </tr>
                           <tr>
-                            <th scope="row">45</th>
+                            <th scope="row">222</th>
                             
-                            <td>perro</td>
-                            <td>Champion Dog</td>
-                            <td>despachado</td>
-                            <td>eliminar</td>
+                            <td>XBOX</td>
+                            <td>MARIO KART</td>
+                            <td>En bodega</td>
+                            <td><button>Eliminar</button></td>
+                           
+                          </tr>
+                          <tr>
+                            <th scope="row">333</th>
+                            
+                            <td>NINTENDO</td>
+                            <td>POKEMON ESMERALDA</td>
+                            <td>ENTREGADO</td>
+                            <td><button>Eliminar</button></td>
                            
                 
                              </tr>
