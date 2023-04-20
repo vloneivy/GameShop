@@ -1,0 +1,16 @@
+.logo{
+    width: 30px;
+    margin-right: 10px;
+}
+
+.thumbnail-product{
+    height: 150px !important;
+    max-width: 150 !important;
+
+}
+.user-image {
+    max-width: 200px;
+}
+.fondo{
+    background-color: lightsteelblue;
+}
