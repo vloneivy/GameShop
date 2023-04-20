@@ -56,73 +56,31 @@
 </header>
 
     <!-- contenido principal de la pagina  -->
-    <main> 
-      <h1>¡Concurso de Ropa!</h1>
-      <h2>!Por compras superiores a $ 20.0000, ya estas participando¡ </h2>
-    <!-- PRODUCTOS DE LA TIENDA -->
-          <!-- Productos -->
-          <div class="container-fluid">
-            <div class="row">
-              <div class="col-sm-12 col-md-6 ">
-                <div class=" card mb-2 box-shadow">
-                  <div class="card-body shadow">
-
-            <!--1-->
-
-                 <a href="ficha1.html" ><img class="" src="img/Nueva carpeta/mando.play5.jfif" alt=""> </a>
-                
-                <h5 class="card-title">Control Inalámbrico DualSense PlayStation 5 </h5>
-                    <p class="card-text">  DISPONIBLE <br>
-                      $ 63.990<br>
-                      Tipo: Controles remotos<br>
-                      Producto Perecible: No<br>
-                      Plazo de disponibilidad de servicio técnico: 3 Meses <br>
-                      Plazo de disponibilidad de repuestos: 2 Meses <br>
-                  
-              
-                
-             
-              
-            </div>
-               
-          </div>
-         </div>
-        <!--2-->
-              <div class="col-sm-12 col-md-6 ">
-                <div class=" card mb-4 box-shadow">
-                  <div class="card-body shadow">
-                    <a href="ficha1.html">
-                      <img class="producto" src="img/Nueva carpeta/juego.nintendo.jfif" alt="">
-                    </a>
-                
-                 <h5 class="card-title">Splatoon 3 NSW</h5>
-                    <p class="card-text"> PRODUCTO DISPONIBLE
-                
-                  <div class="lead text">
-                    
+    
+      
+    <div class="container">
+      <h1>¡¡GRAN CONCURSO!!</h1>
+      <div class="row">
+        <table id="tabla-ropa" class="table table-hover"  >
+            <thead>
+                <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col"> Titulo</th>
+                    <th scope="col"> Precio </th>
+                    <th scope="col"> Descripcion </th>
+                    <th scope="col"> Categoria</th>
+                    <th scope="col"> Imagen</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Aqui se cargarán las filas de la API REST -->
+            </tbody>
+        </table>
+        
+        <br><br><br><br><br>
+    </div>
 
 
-                  </div> 
-                  Desarrollador: Nintendo<br>
-                  Idioma: Multilenguaje (Incluye Castellano)
-                  <br>Online: Este juego se puede jugar en línea. <br>
-                  Calificación: No ha sido calificado aún. <br>
-                   
-                  
-                  
-                
-               
-              </div>
-               
-              </div>
-             </div>
-
-           
-
-        </div>
-
-
-    </main>
 
 
 
@@ -157,7 +115,14 @@
     </div>
 </footer>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
+      integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG"
+      crossorigin="anonymous"></script>     
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+
+    <script src="js/ropa.js"></script>
   </body>
 </html>
