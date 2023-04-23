@@ -13,7 +13,7 @@ $(document).ready(function(){
             fila += '    <td>' + item.price + '</td>';
             fila += '    <td>' + item.description + '</td>';
             fila += '    <td>' + item.category + '</td>';
-            fila += '    <td>' + item.image + '</td>';
+            fila += '    <td> <img src="' + item.image + '" height="200px"></td>';
             
             fila += '</tr>';
             $('#tabla-ropa').append(fila);
