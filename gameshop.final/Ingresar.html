@@ -9,7 +9,8 @@
     <title>GameShop</title>
     <link href="stylesheet" href="csss/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
-</head>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
 <body>
 <!-- cabecera con menu superior principal -->
     <div id="menu-superior">
@@ -21,7 +22,7 @@
             <section >
                 <h1>Iniciar Sesion</h1>
                 <br>
-                <form class="row g3 needs-validation" action="" novalidate>
+                <form class="row g3 " action="" id="formulario-ingresar">
                     <div class="container-fluid">
                         <div class="row">
 
@@ -30,22 +31,17 @@
                                 <div class="col-sm-12 col-md-4" id="datos">
                     
                                   <div class="mb-3">
-                                    <label for="rut" class="form-label">Direccion De E-mail</label>
-                                    <input required placeholder=" Ingrese E-mail" 
-                                        type="text" class="form-control" 
-                                        id="rut" aria-describedby="rutHelp">
-                                    <div id="rutHelp" class="form-text">
-                                      Ingresar Direccion De corre electronico
-                                    </div>
-                                    <div class="invalid-feedback">
-                                      El campo Direccion de E-mail es obligatorio
-                                    </div>
+                                    <label for="email" class="form-label">Correo Electronico</label>
+                                    <input name="email" placeholder="Ingrese su correo" 
+                                        type="email" class="form-control" 
+                                        id="email" aria-describedby="emailHelp">
+                                    <div id="emailHelp" class="form-text"></div>
                                   </div>
                     
                               
                                   <div class="mb-3">
                                     <label for="password1" class="form-label">Contraseña</label>
-                                    <input type="password" placeholder="Ingrese su Contraseña " class="form-control" id="password1" name="password1" required aria-describedby="password1Help">
+                                    <input name="password" type="password" placeholder="Ingrese su Contraseña " class="form-control" id="password1" name="password1" required aria-describedby="password1Help">
                                     <div id="passwordHelp" class="form-text">
                                       
                                     </div>
@@ -110,7 +106,10 @@
             </p>          
         </div>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.10.0/jquery.validate.min.js"></script>
     <script src="js/script.js"></script>
+    <script src="js/formularioIngresar.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>                                     
     </body>
 </html>                
